@@ -3,13 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186AFE60A103CC843194BE62 /* Pods_Skillbox2_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3206C257D3944395B10D0788 /* Pods_Skillbox2_3.framework */; };
+		AC5C632F25399AF300210D11 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5C632E25399AF300210D11 /* ViewController6.swift */; };
+		AC63E8CE2536DCE8007C294D /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63E8CD2536DCE8007C294D /* ViewControllerB.swift */; };
+		AC63E8D92538118C007C294D /* ViewControllerCF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63E8D82538118C007C294D /* ViewControllerCF.swift */; };
+		AC63E8E12538160F007C294D /* TableViewCellC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63E8E02538160F007C294D /* TableViewCellC.swift */; };
+		AC63E8E9253833C5007C294D /* ViewControllerD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63E8E8253833C5007C294D /* ViewControllerD.swift */; };
+		AC63E8F12538511A007C294D /* ViewControllerE.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63E8F02538511A007C294D /* ViewControllerE.swift */; };
 		ACE8A37B25357615005FD50C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8A37A25357615005FD50C /* AppDelegate.swift */; };
 		ACE8A37D25357615005FD50C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8A37C25357615005FD50C /* SceneDelegate.swift */; };
-		ACE8A37F25357615005FD50C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8A37E25357615005FD50C /* ViewController.swift */; };
+		ACE8A37F25357615005FD50C /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8A37E25357615005FD50C /* ViewControllerA.swift */; };
 		ACE8A38225357615005FD50C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE8A38025357615005FD50C /* Main.storyboard */; };
 		ACE8A38425357616005FD50C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE8A38325357616005FD50C /* Assets.xcassets */; };
 		ACE8A38725357616005FD50C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE8A38525357616005FD50C /* LaunchScreen.storyboard */; };
@@ -35,10 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3206C257D3944395B10D0788 /* Pods_Skillbox2_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skillbox2_3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8369C2829887A0D97021B186 /* Pods-Skillbox2.3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skillbox2.3.release.xcconfig"; path = "Target Support Files/Pods-Skillbox2.3/Pods-Skillbox2.3.release.xcconfig"; sourceTree = "<group>"; };
+		AC5C632E25399AF300210D11 /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		AC63E8CD2536DCE8007C294D /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		AC63E8D82538118C007C294D /* ViewControllerCF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCF.swift; sourceTree = "<group>"; };
+		AC63E8E02538160F007C294D /* TableViewCellC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellC.swift; sourceTree = "<group>"; };
+		AC63E8E8253833C5007C294D /* ViewControllerD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerD.swift; sourceTree = "<group>"; };
+		AC63E8F02538511A007C294D /* ViewControllerE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerE.swift; sourceTree = "<group>"; };
 		ACE8A37725357615005FD50C /* Skillbox2.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skillbox2.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE8A37A25357615005FD50C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACE8A37C25357615005FD50C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACE8A37E25357615005FD50C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACE8A37E25357615005FD50C /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
 		ACE8A38125357615005FD50C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACE8A38325357616005FD50C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE8A38625357616005FD50C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,7 @@
 		ACE8A39825357616005FD50C /* Skillbox2.3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Skillbox2.3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE8A39C25357616005FD50C /* Skillbox2_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillbox2_3UITests.swift; sourceTree = "<group>"; };
 		ACE8A39E25357616005FD50C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C661E5E79D213F4A6F44A61D /* Pods-Skillbox2.3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skillbox2.3.debug.xcconfig"; path = "Target Support Files/Pods-Skillbox2.3/Pods-Skillbox2.3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186AFE60A103CC843194BE62 /* Pods_Skillbox2_3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77B4E927CBDA954D0AC4F490 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C661E5E79D213F4A6F44A61D /* Pods-Skillbox2.3.debug.xcconfig */,
+				8369C2829887A0D97021B186 /* Pods-Skillbox2.3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D817697DB74A35F89E091FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3206C257D3944395B10D0788 /* Pods_Skillbox2_3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACE8A36E25357615005FD50C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +117,8 @@
 				ACE8A39025357616005FD50C /* Skillbox2.3Tests */,
 				ACE8A39B25357616005FD50C /* Skillbox2.3UITests */,
 				ACE8A37825357615005FD50C /* Products */,
+				77B4E927CBDA954D0AC4F490 /* Pods */,
+				8D817697DB74A35F89E091FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +137,13 @@
 			children = (
 				ACE8A37A25357615005FD50C /* AppDelegate.swift */,
 				ACE8A37C25357615005FD50C /* SceneDelegate.swift */,
-				ACE8A37E25357615005FD50C /* ViewController.swift */,
+				ACE8A37E25357615005FD50C /* ViewControllerA.swift */,
+				AC63E8CD2536DCE8007C294D /* ViewControllerB.swift */,
+				AC63E8D82538118C007C294D /* ViewControllerCF.swift */,
+				AC63E8E02538160F007C294D /* TableViewCellC.swift */,
+				AC63E8E8253833C5007C294D /* ViewControllerD.swift */,
+				AC63E8F02538511A007C294D /* ViewControllerE.swift */,
+				AC5C632E25399AF300210D11 /* ViewController6.swift */,
 				ACE8A38025357615005FD50C /* Main.storyboard */,
 				ACE8A38325357616005FD50C /* Assets.xcassets */,
 				ACE8A38525357616005FD50C /* LaunchScreen.storyboard */,
@@ -135,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACE8A3A125357616005FD50C /* Build configuration list for PBXNativeTarget "Skillbox2.3" */;
 			buildPhases = (
+				1167DEDD03550F7A21B9A5B1 /* [CP] Check Pods Manifest.lock */,
 				ACE8A37325357615005FD50C /* Sources */,
 				ACE8A37425357615005FD50C /* Frameworks */,
 				ACE8A37525357615005FD50C /* Resources */,
+				9A8514106851317C20D92584 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +297,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1167DEDD03550F7A21B9A5B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skillbox2.3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A8514106851317C20D92584 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skillbox2.3/Pods-Skillbox2.3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skillbox2.3/Pods-Skillbox2.3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Skillbox2.3/Pods-Skillbox2.3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACE8A37325357615005FD50C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACE8A37F25357615005FD50C /* ViewController.swift in Sources */,
+				ACE8A37F25357615005FD50C /* ViewControllerA.swift in Sources */,
+				AC63E8E12538160F007C294D /* TableViewCellC.swift in Sources */,
+				AC5C632F25399AF300210D11 /* ViewController6.swift in Sources */,
+				AC63E8E9253833C5007C294D /* ViewControllerD.swift in Sources */,
 				ACE8A37B25357615005FD50C /* AppDelegate.swift in Sources */,
+				AC63E8F12538511A007C294D /* ViewControllerE.swift in Sources */,
+				AC63E8D92538118C007C294D /* ViewControllerCF.swift in Sources */,
+				AC63E8CE2536DCE8007C294D /* ViewControllerB.swift in Sources */,
 				ACE8A37D25357615005FD50C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +525,7 @@
 		};
 		ACE8A3A225357616005FD50C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C661E5E79D213F4A6F44A61D /* Pods-Skillbox2.3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +539,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ArtemA.Skillbox2-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ACE8A3A325357616005FD50C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8369C2829887A0D97021B186 /* Pods-Skillbox2.3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,7 +559,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ArtemA.Skillbox2-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
